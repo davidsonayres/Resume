@@ -1,0 +1,106 @@
+* {
+	text-decoration: none;
+  color: #E55BFB;
+}
+
+body {
+  font-family: "Bungee Hairline", Futura, sans-serif;
+  background-image: -webkit-linear-gradient(#FDF970, #FFFEAA);
+  color: #E55BFB;
+}
+
+#header {
+  color: #FF9FB9;
+  text-align: center;
+  text-shadow: 10px 10px #5BF6FB ;
+  font-family: "Bungee Outline", Futura, sans-serif;
+  font-size: 22vw;
+  margin: auto;
+}
+
+img {
+	border-radius: 100%;
+	border: 10px double rgba(255, 255, 255, 0.7);
+	overflow: hidden;
+	width: 100%;
+}
+
+#image-one {
+  max-height: 45%;
+  max-width: 45%;
+  display: block;
+  padding: 10px;
+  margin: auto;
+  margin-top: 15px;
+  float: right;
+  clear: bottom;
+}
+
+#image-two {
+  max-height: 15%;
+  max-width: 15%;
+  float: left;
+  margin-left: -25px;
+  margin-right: 10px;
+  margin-bottom: -10px;
+  margin-top: 10px;
+}
+
+.titles li{
+  font-family: Bungee;
+  color: #FF9FB9;
+  text-shadow: 5px 5px #5BF6FB;
+  font-size: 4.2vw;
+  text-align: right;
+  display: block;
+  letter-spacing: 2px;
+  word-spacing: 0.20em;
+  margin-right: 20px;
+}
+
+.titles a:link{
+  color: #FF9FB9;
+  text-shadow: 5px 5px #5BF6FB;
+  text-align: right;
+}
+
+h3 {
+  color: #FF9FB9;
+  font-weight: bold;
+  text-shadow: 1.5px 1.5px #5BF6FB;
+  font-size: 3.5vw;
+  font-weight: bold;
+}
+
+li {
+  font-size: 2.5vw;
+  font-weight: bold;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+h2 {
+  font-size: 2.5vw;
+  color: #FF9FB9;
+  font-weight: bold;
+}
+
+.disclaimer {
+  font-size: 2vw;
+}
+
+.footer {
+  font-weight: bold;
+  font-size: 1vw;
+}
+
+a:hover {
+  letter-spacing: 5px;
+}
+
+a img:hover {
+  letter-spacing: 5px;
+  border: 10px solid #5BF6FB;
+}
